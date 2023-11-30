@@ -43,7 +43,7 @@ main {
 #magna {
     text-align: center;
     background: #f4f4f4;
-    
+
 }
 
 h3 {
@@ -55,62 +55,52 @@ p {
 }
 
 button {
-    appearance: none;
-    background-color: transparent;
-    border: 0.125em solid #1A1A1A;
-    border-radius: 0.9375em;
-    box-sizing: border-box;
-    color: #3B3B3B;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 16px;
-    font-weight: 600;
-    line-height: normal;
-    margin: 0;
-    min-height: 3.75em;
-    min-width: 0;
-    outline: none;
-    padding: 1em 2.3em;
-    text-align: center;
-    text-decoration: none;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    will-change: transform;
+    margin: 0 0 35px;
+    padding: 10px 20px;
     text-transform: uppercase;
-   }
-   
-   button:hover {
-    color: #ff0000;
-    border-color: #ff0000;
-    transform: translateY(-2px);
-   }
-   
-   button:active {
-    box-shadow: none;
-    transform: translateY(0);
-   }
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+    transition: 1s;
+    margin-left: 45%;
+}
 
-   .haut {
-    width: 25%;
+button:hover {
+    background-color: transparent;
+    color: #ff0033;
+    border-radius: 10px;
+    border: 2px solid #ff0033;
+    transition: 0.5s;
+
+}
+
+.main-haut {
     margin: 0 15%;
+}
+
+.haut {
+    width: 50%;
     background-color: #f4f4f4;
-   }
-   .haut-droite {
-    width: 25%;
-    margin: 0 15%;
+    float: left;
+}
+
+.haut-droite {
+    width: 50%;
     background-color: #f4f4f4;
-    margin: 0 auto;
-    float: right;  
- }
-   h4 {
+    float: right;
+}
+
+h4 {
     text-transform: uppercase;
     position: absolute;
-    top: 130%;
-    left: 28%;
-    transform: translate(-50%, -50%);
+    margin-top: -10rem;
     color: rgb(255, 255, 255);
-    font-size: small;
-   }
+    text-align: center;
+}
+
+/* Clear */
+.clear {
+    clear: both;
+}
+/* Clear */
