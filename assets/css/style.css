@@ -1,0 +1,138 @@
+img {
+    width: 100%;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 7rem;
+    font-family: 'Pacifico', cursive;
+}
+
+#trait {
+    border-top: 5px solid #ffffff;
+    width: 700px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: small;
+}
+
+
+main {
+    background: #f4f4f4;
+}
+
+#magna {
+    text-align: center;
+    background: #f4f4f4;
+
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0 15%;
+}
+
+button {
+    margin: 0 0 35px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+    transition: 1s;
+    margin-left: 45%;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #ff0033;
+    border-radius: 10px;
+    border: 2px solid #ff0033;
+    transition: 0.5s;
+
+}
+
+.main-haut {
+    margin: 0 15%;
+}
+
+.haut {
+    width: 50%;
+    background-color: #f4f4f4;
+    float: left;
+}
+
+.haut-droite {
+    width: 50%;
+    background-color: #f4f4f4;
+    float: right;
+}
+
+h4 {
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -10rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* Clear */
+.clear {
+    clear: both;
+}
+/* Clear */
+
+
+h5 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+p {
+    margin: 0 18%;
+}
+
+.fond {
+    background-color: white;
+}
+
+h6 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+span {
+    font-size: 25px;text-transform: uppercase;
+
+}
+
+li {
+    list-style: none;
+    margin: 0 36%;
+}
